@@ -1,0 +1,7 @@
+body{
+    background-color: aqua;
+}
+table td:nth-child(odd){
+    color: rgb(1, 10, 7);
+    font-weight: bold;
+}
