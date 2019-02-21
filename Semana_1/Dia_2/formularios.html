@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <hr>
+    <form action="enviar.html" method="POST">
+        <p>
+            <label for="id_nombre"> Nombre</label>
+            <input type="text"
+                   name="nombre"
+                   id="id_nombre" 
+                   minlength="5" 
+                   maxlength="20" 
+                   placeholder="Ingrese su nombre"
+                   required/>
+        </p>
+        <p>
+            <label for="id_edad"> Edad</label>
+            <input type="number" 
+                   name="edad" 
+                   id="id_edad" 
+                   min="0" 
+                   max="5" 
+                   required/>
+        </p>
+        <p>
+            <label for="id_date">Fecha</label>
+            <input type="date" 
+                   name="fecha" 
+                   id="id_date"/>
+        </p>
+        <p>
+            <label for="id_email">Email</label>
+            <input type="email" 
+                   name="email"  
+                   id="id_email" 
+                   required/>
+        </p>
+        <p>
+            <label for="id_password">Password</label>
+            <input type="password" 
+                   name="email" 
+                   id="id_password" 
+                   pattern=".(?=.*\d)(?=.*\[a-z])(?=.*\[A-Z]){6,}" 
+                   required/>
+        </p>
+        <p>
+            <label for="id_masculino">Masculino</label>
+            <input type="radio" name="genero" id="id_masculino" value="masculino" checked><br>
+            <label for="id_femenino">Femenino</label>
+            <input type="radio" name="genero" id="id_femenino" value="femenino"><br>
+            <label for="id_indesiso">Indefinido</label>
+            <input type="radio" name="genero" id="id_indesiso" value="indesiso">
+        </p>
+        <p>
+            <label for="id_accion">Acción</label>
+            <input type="checkbox" name="accion" value="acc" id="id_accion"><br>
+            <label for="id_comedia">Comedia</label>
+            <input type="checkbox" name="comedia" value="com" id="id_comedia"><br>
+            <label for="id_terror">Terror</label>
+            <input type="checkbox" name="terror" value="terr" id="id_terror">
+        </p>
+        <p>
+            <label for="id_textarea">Mensaje</label><br>
+            <textarea name="mensaje" id="id_textarea" cols="30" rows="10">gaaaaaaaaaaaa</textarea>
+        </p>
+        <p>
+            <label for="">Select Distrito</label>
+            <br>
+            <select name="salect" id="">
+                <option value="mi">Miraflores</option>
+                <option value="pau">Paucarpata</option>
+                <option value="cay">Cayma</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" 
+                   value="Iniciar Sesión" required>
+        </p>
+    </form>
+</body>
+</html>

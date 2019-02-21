@@ -1,0 +1,43 @@
+/* selector de etiqueta */
+body{
+    background-color: rgb(252, 164, 133);
+    color:  black;
+}
+/* para todos los section 
+section{
+    font-size: 50px;
+}
+
+ para todos los p 
+p{
+    font-size: 60px
+}
+*/
+
+/* todos los parrafos y todos los spans */
+p, span{
+    font-size: 30px;
+    color: rgba(255, 251, 0, 0.89);
+}
+
+/* todos los span que sea hijo en algun nivel de p */
+p span{
+    color: rgb(9, 9, 14);
+}
+
+/* todos los p que sean hijos directos de secction */
+section>p{
+    color:rgb(50, 143, 50);
+}
+
+/* Todos los p que van presedidos por un h1 */
+h1+p{
+    color:blueviolet;
+}
+
+/* selecciona todos los elementos */
+*{
+    margin: 0;
+    padding: 0;
+
+}
