@@ -1,0 +1,18 @@
+#fontfamily{
+    font-family: 'Courier New', Courier, monospace;
+}
+td,th{
+    padding: 5px;
+}
+#fontsize{
+    font-size: 20px;
+}
+#fontweight{
+    font-weight: bold;
+}
+#fontstyle{
+    font-style: italic;
+}
+#font{
+    font: bold 24px cursive;
+}
