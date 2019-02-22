@@ -1,3 +1,7 @@
+@font-face{
+    font-family: "HarryEsp";
+    src: url(../HARNGTON.TTF);
+}
 #fontfamily{
     font-family: 'Courier New', Courier, monospace;
 }
@@ -16,3 +20,33 @@ td,th{
 #font{
     font: bold 24px cursive;
 }
+#textalign{
+    text-align: right;
+}
+#textindent{
+    text-indent: 5px;
+}
+#letterspacing{
+    letter-spacing: 6px;
+}
+#wordspacing{
+    word-spacing: 5px;
+}
+#lineheight{
+    line-height: 10px; 
+}
+#textdecoration{
+    text-decoration: none;
+}
+#fontH{
+    font-family: "HarryEsp";
+}
+#userselect{
+    user-select: none;
+}
+
+
+
+
+
+
