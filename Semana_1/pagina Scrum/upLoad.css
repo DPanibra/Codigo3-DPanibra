@@ -28,7 +28,8 @@ p{
     color: red;
 }
 h3{
-    margin-top: 5px;
+    text-align: center;
+    margin: 0 5px;
 }
 #actionV{
     text-align: left;

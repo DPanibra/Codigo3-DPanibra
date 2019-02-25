@@ -1,0 +1,28 @@
+/* Transformaciones 
+    scale(x, y)= cambia el tamaño del elemento
+    rotate(angulo°)= rota el elemento en grados
+    translate(x, y)= mueve el elemento de su posicion original a ....
+    skew(angulo°)=inclina el elemento
+    -para aplicar mas de una deben aplicarse todas en una sola linea*/
+    #title_box{
+        margin: 40px auto 0 auto;
+        width: 400px;
+        text-align: center;
+        border: 1px solid black;
+        transform: scale(1, 1) translate(0, 200px) rotate(45deg);
+        /* transition-delay: 1s;- tiempo que espera en mouse  */
+        transition-duration: 1s;
+        /* curva de beizer => ease-in-out | step-end | step-start*/
+        transition-timing-function: ease-in-out;
+    }#title_box:hover{
+        transform: translate(0, 200px)  rotate(0deg);
+     }
+#div-id{
+    width: 80px;
+    height: 80px;
+    background-color: aquamarine;
+    transition-duration: 1.5s;
+    transform: translate(0, 600px);
+}#div-id:hover{
+    transform: translate(0, 600px) scale(2,2);
+}

@@ -15,6 +15,7 @@ body{
     width: 250px;
     height: 30px;
     border-radius: 6px;
+    box-shadow: none;
 }img{
     width: 70px;                            
 }#tRegister{
@@ -25,10 +26,12 @@ input[type=email]{
     width: 250px;
     height: 30px;
     border-radius: 6px;
+    box-shadow: none;
 }input[type=number]{
     width: 100px;
     height: 30px;
     border-radius: 6px;
+    box-shadow: none;
 }input[type=select]{
     width: 250px;
     height: 30px;
