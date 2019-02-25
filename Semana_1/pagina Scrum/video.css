@@ -1,0 +1,41 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    width: 550px;
+    margin: 25px auto 0 auto;
+}#top{
+    color: red;
+    font-size: 40px;
+    text-align: left;
+    margin: 0px auto;
+}#video{
+    padding-top: 8px;
+    padding-left: 15px;
+}label{
+    font-size: 14px;
+}hr{
+    margin-top: 40px;
+}#tabla2{
+    width: 550px;
+    margin: 25px auto 0 auto;
+    border-collapse: collapse;
+    border: 1px solid black; 
+}#todos{
+    padding: 3px 20px;
+    background-color: rgb(180, 180, 180);
+    color: rgb(0, 0, 0);
+}
+.marca{
+    padding: 3px 20px;
+    background-color: red;
+    color: white;
+}#tabla3{
+    width: 550px;
+    margin: 25px auto 0 auto;
+    text-align: left;
+}th{
+    text-align: center;
+}.stars{
+    font-size: 19px;
+}

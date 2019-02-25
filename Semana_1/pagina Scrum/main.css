@@ -1,0 +1,38 @@
+#navH{
+    width: 450px;
+    margin: 0 auto;
+    
+}span{
+    margin-right:15px; 
+}a{
+    text-decoration: none;
+    margin: 0 15px;
+    color:black;
+}#contenido{
+    width: 500px;
+    margin: 25px auto 0 auto;
+}#tabla1{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-bottom: 35px;
+}#t_id{
+    background-color: rgba(248, 248, 125, 0.822);
+}img{
+    width: 50px;
+    height: auto;
+    margin: 0 20%;
+}.imagen{
+    width: 80px;
+}#heards{
+    padding-left: 10px;
+    font-size: 25px;
+}#tabla2{
+    margin-top: 20px;
+}
+#descripcion{
+    padding-right: 15px;
+    color: red;
+}#top{
+    margin: 0 auto 20px auto;
+}

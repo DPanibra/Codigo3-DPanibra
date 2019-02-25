@@ -1,77 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="formulario.css">
-    <title>Formulario-LOL.wtf</title>
+    <title>Registro-LOL.wtf</title>
 </head>
+
 <body>
-    <header>
-        <div id="title2"> 
-            <table >
-                <tr>
-                    <td><img  src="./user.png" alt=""></td>
-                    <td id="tRegister"> <h1>Registro de usuario</h1></td>
-                </tr>
-            </table>          
-        </div>
-    </header>
     <main>
-        <div id="divMain">
-            <input type="text" name="user" id="userId" placeholder="  Usuario">
-            <table id="tabla2">
-                <tr>
-                    <td>
-                        <label for="name">Nombre</label><br>
-                        <input type="text" name="name" id="name"><br>
-                    </td>
-                    <td>
-                            <label for="apellidos">Apellidos</label><br>
-                            <input type="text" name="apellidos" id="apellidos"><br>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                            <label for="emailId">Email</label><br>
-                            <input type="email" name="" id="emailId"><br>
-                    </td>
-                    <td>
-                            <label for="passwordId">Password</label><br>
-                            <input type="text" name="password" id="passwordId"><br>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                            <label for="confirm">Confirm password</label><br>
-                            <input type="text" name="" id="confirm"><br>
-                    </td>
-                    <td>
-                            <label for="edadId">Edad</label><br>
-                            <input type="number" name="" id="edadId" min="1" max="100"> Años<br>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                            <label for="telefono">Telefono</label><br>
-                            <input type="text" name="" id="telefono">
-                    </td>
-                    <td>
-                            <label for="ciudadId">Ciudad</label><br>
-                            <select name="salect" id="select">
-                                    <option value="mi"></option>
-                                    <option value="aqp">Arequipa</option>
-                                    <option value="lim">Lima</option>
-                                    <option value="pun">Puno</option>
-                            </select>
-                    </td>
-                </tr>
-            </table>
-            <input type="checkbox" name="accion" value="acc" id="id_accion">Acepto politicas y condiciones<br>
-            <button>Crear Cuenta</button>
-            <p>Los terminos y condiciones del sitio ....</p>
+
+        <table id="table1">
+            <tr>
+                <td><img src="./user.png" alt=""></td>
+                <td id="tRegister">
+                    <h1>Registro de usuario</h1>
+                </td>
+            </tr>
+        </table>
+        <div class="divCenter">
+                <input type="text" name="user" id="userId" placeholder="  Usuario">
         </div>
+        <table id="tabla2">
+            <tr>
+                <td>
+                    <label for="name">Nombre</label><br>
+                    <input type="text" name="name" id="name"><br>
+                </td>
+                <td>
+                    <label for="apellidos">Apellidos</label><br>
+                    <input type="text" name="apellidos" id="apellidos"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="emailId">Email</label><br>
+                    <input type="email" name="" id="emailId"><br>
+                </td>
+                <td>
+                    <label for="passwordId">Password</label><br>
+                    <input type="text" name="password" id="passwordId"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="confirm">Confirm password</label><br>
+                    <input type="text" name="" id="confirm"><br>
+                </td>
+                <td>
+                    <label for="edadId">Edad</label><br>
+                    <input type="number" name="" id="edadId" min="1" max="100"> Años<br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="telefono">Telefono</label><br>
+                    <input type="text" name="" id="telefono">
+                </td>
+                <td>
+                    <label for="ciudadId">Ciudad</label><br>
+                    <select name="salect" id="select">
+                        <option value="mi"></option>
+                        <option value="aqp">Arequipa</option>
+                        <option value="lim">Lima</option>
+                        <option value="pun">Puno</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <input type="checkbox" name="accion" value="acc" id="id_accion">
+        <label for="id_accion"> Acepto politicas y condiciones</label><br>
+        <div class="divCenter">
+            <button>Crear Cuenta</button>
+        </div>
+        <p>Los terminos y condiciones del sitio ....</p>
+
     </main>
 </body>
+
 </html>

@@ -1,72 +1,61 @@
-*{
-    margin-left: 15px;
-    margin-top: 5px;
-}
-td{
+body{
+    padding: 5px 15px;
+}main{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}#table1{
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+}td{
     padding-bottom: 15px;
-}
-main{
-    margin: 0px 35%;
-    
-}#tabla2{
-    margin-left: 10px,
-}
-input[type=text]{
+    padding-right: 20px;
+}input[type=text]{
     width: 250px;
     height: 30px;
     border-radius: 6px;
-}
-img{
+}img{
     width: 70px;                            
-}
-#tRegister{
+}#tRegister{
     text-align: left;
     padding: 5% 0px;
-    width: 900px;
 }
-#title2{
-    margin-left: 40%;
-}
-  input[type=email]{
+input[type=email]{
     width: 250px;
     height: 30px;
     border-radius: 6px;
-}
-  input[type=number]{
+}input[type=number]{
     width: 100px;
     height: 30px;
     border-radius: 6px;
-}
-  input[type=select]{
+}input[type=select]{
     width: 250px;
     height: 30px;
     border-radius: 6px;
-}
-#userId{
-    margin: 15px 30%;
-}
-  #select{
+}#select{
     width: 250px;
     height: 30px;
     border-radius: 6px;
+}.divCenter{
+    width: 200px;
+    margin: 10px auto 25px auto;
 
-  }
-  #id_accion{
-      margin-left: 10%;
-  }
-  button{
+}label{
+    font-size: 18px;
+    font-weight: bold;
+}button{
     width: 200px;
     border:1px solid rgb(75, 64, 233);
     background-color: rgb(75, 64, 233);
     border-radius: 10px;
     padding: 8px 25px;
-    margin: 20px 40%;
+    margin-top: 10px;
     color: white;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-}
-p{
+}p{
     color: slategray;
     margin-left: 15%;
 }
