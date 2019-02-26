@@ -1,4 +1,4 @@
-/* display
+x|/* display
     todos los elementos estructurales de HTML
     define la propiedad display en BLOCK
     header, footer, main, seccion, aside, p, div */
@@ -6,20 +6,15 @@
 /* in line ocupa solo el ancho de su espacio en una misma linea
     inline-block => el elemento ocupa el ancho de su espacio en una misma linea pero respeta 
     sus atributos width y height */
-
+/* modelo de cajas flotantes
+    modelo de caja flexible
+    modelo de caja en grilla */
 *{
     margin: 0;
     padding: 0;
-}body{
-    margin: 20px auto; 
-}#content{
-    width: 1270px;
-    margin: 0 auto;
-    display: inline-block;
-}
-div:not(#content){
+}div:not(#content){
     border: 1px solid blue;
-    width: 100px;
+    width: 49.5%;
     height: 100px;
     display: inline-block;
 }    
