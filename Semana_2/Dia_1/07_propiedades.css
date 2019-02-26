@@ -11,9 +11,13 @@
     margin: 0;
     padding: 0;
 }body{
-    
+    margin: 20px auto; 
+}#content{
+    width: 1270px;
+    margin: 0 auto;
+    display: inline-block;
 }
-div{
+div:not(#content){
     border: 1px solid blue;
     width: 100px;
     height: 100px;

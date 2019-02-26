@@ -8,35 +8,32 @@ body{
     width: 380px;
     margin-left: auto;
     margin-right: auto;
-}td{
+}#userId{
+    background-color: #CAE9B8;
+}
+td{
     padding-bottom: 15px;
     padding-right: 20px;
-}input[type=text]{
+}input[type=text], input[type=email], input[type=number]
+, input[type=select]{
     width: 250px;
     height: 30px;
+    border: 1px solid black;
+    font-size: 18px;
     border-radius: 6px;
+    padding-left: 10px;
     box-shadow: none;
-}img{
+}input[type=number]{
+    width: 100px;
+    text-align: center;
+}
+img{
     width: 70px;                            
 }#tRegister{
     text-align: left;
     padding: 5% 0px;
 }
-input[type=email]{
-    width: 250px;
-    height: 30px;
-    border-radius: 6px;
-    box-shadow: none;
-}input[type=number]{
-    width: 100px;
-    height: 30px;
-    border-radius: 6px;
-    box-shadow: none;
-}input[type=select]{
-    width: 250px;
-    height: 30px;
-    border-radius: 6px;
-}#select{
+#select{
     width: 250px;
     height: 30px;
     border-radius: 6px;
