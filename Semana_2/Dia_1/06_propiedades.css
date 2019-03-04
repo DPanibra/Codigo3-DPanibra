@@ -1,0 +1,115 @@
+/* before: inyecta un elemnto antes de del elemento seleccionado */
+body{
+    height: 100%;
+    width: 100%;
+    background: #00d2ff;  /* fallback for old browsers */
+
+background: linear-gradient(to top, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#contenido::before{
+    content: "gaaaaaaa";
+    border: 2px solid steelblue;
+    transform: rotate(90deg);
+}#contenido::after{
+    content: "gaaaaaaa x2"
+}
+header{
+    
+    margin: 240px auto;
+
+    width: 60px;
+    height: 10px;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    /* animation: nombre de la animacion- tiempo de la animacion 
+    - funcio  bezier - delay - n de veces a repetir()infinite - sentido de la ejecucion
+    - normal - reverse - forma de finalisacion de la animacion(none)*/
+    animation-name: up;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.bur{
+    width: 25px;
+    height: 25px;
+    border: 2px solid rgba(165, 157, 157, 0.767);
+    border-radius: 360px;
+    background-color: rgba(219, 209, 209, 0.349);
+    animation-name: wobble;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes animation_1{
+    0%{
+        background-color: aquamarine;
+        transform: rotate(0deg);
+    }25%{
+        background-color: rgb(58, 206, 157);
+        transform: rotate(90deg) scale(2);
+    }50%{
+        background-color: rgb(33, 112, 86);
+        transform: rotate(180deg);
+    }75%{
+        background-color: rgb(17, 97, 90);
+        transform: rotate(270deg) scale(2);
+    }100%{
+        background-color: aquamarine;
+        transform: rotate(360deg);
+    }
+}@keyframes animation_2{
+    0%{
+        background-color: aquamarine;
+        transform: translate(0, 0);
+    }25%{
+        background-color: rgb(58, 206, 157);
+        transform:  translate(500px, 0);
+    }50%{
+        background-color: rgb(33, 112, 86);
+        transform: translate(500px, 500px);
+    }75%{
+        background-color: rgb(17, 97, 90);
+        transform:  translate(0, 500px);
+    }100%{
+        background-color: aquamarine;
+        transform: translate(0, 0);
+    }
+}
+@keyframes wobble {
+	
+	20% {
+		transform: translateX(-100px);
+	}
+	
+	66% {
+		transform: translateX(50px);
+	}
+	
+}
+@keyframes up {
+    0% {
+    opacity: 0;
+    transform: translateY(600px);
+    }
+    10% {
+    opacity: 1;
+    }
+    80%, 90% {
+    opacity: 0;
+    transform: translateY(-250px) ;
+
+    }
+    100%{
+        transform: translateY(600px);
+        opacity: 0;
+    }
+  }html{
+      font-size:16px;
+  }
+  #div_1{
+      font-size: 1rem;
+  }#parrafo{
+      font-size: 1.5rem;
+  }#parrafo-2 {
+    font-size: 1.5em;
+}

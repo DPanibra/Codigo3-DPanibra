@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body *{
+    border: 1px solid blue;
+}img{
+    float: right;
+}.contenedor{
+    border: 10px solid rgb(21, 21, 24);
+    background-color: aqua;
+}#clear{
+    clear: both;
+    /* clear-> both ;rellena los espacios al costado de un contenedor */
+}p{
+    display: inline-block   ;
+}

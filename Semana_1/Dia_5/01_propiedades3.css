@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   background-image: url("./yara.jpg");  
+    background-repeat: repeat;
+}
+header{
+    border: 20px solid seagreen;
+    margin-top: 15px;
+    padding: 10px;
+}
+h1{
+    border: 3px solid royalblue;
+}
+main{
+    border: 1px solid green;
+    width: 700px;
+    height: 700px;  
+    background: rgba(23, 65, 89, 0.7) url("https://placehold.it/300x150") repeat-x;
+
+}

@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(247, 242, 177);
+    background-image:url("../../Semana_1/Dia_5/personalizado.jpg");
+}
+header{
+    padding: 50px;
+    background-color: rgba(238, 192, 123, 0.788);
+    box-shadow: rgba(218, 165, 32, 0.836) 7px 7px 8px ;
+    border-radius: 16px;
+}
+h1{
+    text-shadow: gray 3px 3px 5px;
+}main{
+    margin-top: 15px;
+    padding: 50px;
+    background-color: rgba(238, 192, 123, 0.788);
+    background: -webkit-linear-gradient(-45deg, rgba(238, 192, 123, 0.788), rgba(238, 192, 123, 0.788), rgb(255, 244, 212) );
+    box-shadow: rgba(218, 165, 32, 0.836) 7px 7px 8px ;
+    border-radius: 16px;
+    
+}footer{
+    margin-top: 15px;
+    padding: 50px;
+    background-color: rgba(238, 192, 123, 0.788);
+    background: -webkit-linear-gradient(-45deg, rgba(238, 192, 123, 0.788) 10%, rgba(238, 192, 123, 0.788), transparent );
+    box-shadow: rgba(218, 165, 32, 0.836) 7px 7px 8px ;
+    border-radius: 16px;
+}#div_id1{
+    margin-top: 15px;
+    padding: 80px;
+    background-color: rgba(238, 192, 123, 0.788);
+    background: -webkit-radial-gradient(center, circle, rgba(238, 192, 123, 0.788) 5%, rgb(255, 244, 212), transparent );
+    box-shadow: rgba(218, 165, 32, 0.836) 7px 7px 8px ;
+    border-radius: 16px;
+}#div_id2{
+    margin-top: 15px;
+    padding: 80px;
+    background-color: rgba(238, 192, 123, 0.788);
+    background: -webkit-radial-gradient(center, ellipse, rgba(238, 192, 123, 0.788) 5%, rgb(255, 244, 212), transparent );
+    box-shadow: rgba(218, 165, 32, 0.836) 7px 7px 8px ;
+    border-radius: 16px;
+}
+/* filtros
+    blur = difuminado van del 1 a 10px
+    grayscale = convienten los colores de una imagen a escala de grises
+    invert = invierte los colores y produce un negativo valores de 0.1 a 1
+    opacity = cambia la opacida de de elemto vaores de 0= trans parente  a 1= opaco
+    brightness = cambia el brillo de la imagen valores de 0.1 a 10 */
+    img{
+        width: 100%;
+    }
+    section{
+        width: 70px;
+        margin: 20px auto 0 auto;
+        filter: blur(3px) grayscale() brightness(0.9);
+    }

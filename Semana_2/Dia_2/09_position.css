@@ -1,0 +1,60 @@
+.caja_padre{
+    width: 60%;
+    border: 1px solid skyblue;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}#caja-1{
+    position: absolute;
+    top: 40px;
+    left: 80px;
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    float: left;
+    background-color: darkgray;
+    z-index: 10;
+}#caja-2{
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    float: left;
+    background-color: rgb(223, 110, 110);
+    /* para usar z-index el objeto debe estar posicionado */
+    position: relative;
+    z-index:20 ;
+}#caja-3{
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    float: right;
+    background-color: rgb(137, 209, 115);
+}#caja-4{
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    float: right;
+    background-color: rgb(243, 137, 229);
+}.clear{
+    clear: both;
+}#baner{
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    position: fixed;
+    top: 0px;
+    transform: translate(-50%,0);
+    left: 50%;
+    background-color: rgb(137, 162, 243);
+/* posicionamiento: position
+    valores-> static, absolute, relative, fixe
+    valores referenciales -> top left right botton  */
+/* realtive: mueve el elemento de su posicion actual,
+ pero su espacio se respeta */
+ /* absolute-> mueve el elemento de su posicion actual pero su
+ espacio se ocupa por otros elemtos , si su padre esta posicionado,
+ la referencia es su padre, sino sera el viewport*/
+ /* fixed: mueve el elemento y lo mantiene estatico(incluso si la
+  pagina tiene habilitado el scroll ) su referencia es siempre el 
+  viewport */

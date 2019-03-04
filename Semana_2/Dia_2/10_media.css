@@ -1,0 +1,50 @@
+body{
+    background-color: rgba(240, 124, 130, 0.719);
+    border: 3px solid black;
+    padding: 0px;
+}section{
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    margin-right: 5%;
+    box-sizing: border-box;
+    background-color: darkgrey;
+}aside{
+    float: left;
+    width: 30%;
+    height: auto;
+    background-color: aliceblue;
+}
+h1{
+    font-size: 90px;
+}#clear{
+    clear: both;
+}
+
+@media(max-width:1024px){
+    body{
+        background-color: rgba(240, 161, 124, 0.719);
+        border: 3px solid black;
+        padding-left: 10px;
+    }h1{
+        font-size: 50px;
+    }
+}@media(max-width:768px){
+    body{
+        background-color: rgba(128, 240, 124, 0.719);
+        border: 3px solid black;
+        padding-left: 10px;
+    }
+}@media(max-width:480px){
+    body{
+        background-color: rgb(127, 157, 255);
+    }h1{
+        font-size: 30px;
+    }
+}@media(max-width:320px){
+    body{
+        background-color: rgb(255, 127, 155);
+    }h1{
+        font-size: 18px;
+    }
+}
